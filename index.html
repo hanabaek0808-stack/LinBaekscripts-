@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="LinBaek Scripts - Learn writing systems, stroke order and handwriting through interactive practice.">
+
+    <title>LinBaek Scripts — Learn Writing Systems</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            ✍️ LinBaek Scripts
+        </div>
+
+        <nav>
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#languages">
+                Languages
+            </a>
+
+            <a href="#how-it-works">
+                How It Works
+            </a>
+
+            <a href="#practice">
+                Practice
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO SECTION
+        ========================== -->
+
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p class="tagline">
+                    LEARN • WRITE • PRACTICE
+                </p>
+
+                <h1>
+                    Master the world's
+                    <span>writing systems.</span>
+                </h1>
+
+                <p class="hero-text">
+
+                    Learn alphabets, characters,
+                    stroke order and handwriting
+                    through guided lessons and
+                    interactive practice.
+
+                </p>
+
+                <a href="#languages"
+                   class="start-button">
+
+                    Start Learning →
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LANGUAGES SECTION
+        ========================== -->
+
+        <section id="languages"
+                 class="languages-section">
+
+            <div class="section-heading">
+
+                <p class="small-heading">
+                    CHOOSE A WRITING SYSTEM
+                </p>
+
+                <h2>
+                    What do you want to learn?
+                </h2>
+
+                <p>
+                    Choose a language and begin
+                    learning its writing system
+                    step by step.
+                </p>
+
+            </div>
+
+
+            <div class="language-grid">
+
+
+                <!-- ENGLISH -->
+
+                <button class="language-card"
+                        onclick="selectLanguage('English')">
+
+                    <div class="language-symbol">
+                        Aa
+                    </div>
+
+                    <h3>
+                        English
+                    </h3>
+
+                    <p>
+                        Latin Alphabet
+                    </p>
+
+                </button>
+
+
+                <!-- ARABIC -->
+
+                <button class="language-card"
+                        onclick="selectLanguage('Arabic')">
+
+                    <div class="language-symbol arabic">
+                        ا ب
+                    </div>
+
+                    <h3>
+                        Arabic
+                    </h3>
+
+                    <p>
+                        Arabic Script
+                    </p>
+
+                </button>
+
+
+                <!-- CHINESE -->
+
+                <button class="language-card"
+                        onclick="selectLanguage('Chinese')">
+
+                    <div class="language-symbol chinese">
+                        汉
+                    </div>
+
+                    <h3>
+                        Chinese
+                    </h3>
+
+                    <p>
+                        Hanzi Characters
+                    </p>
+
+                </button>
+
+
+                <!-- JAPANESE -->
+
+                <button class="language-card"
+                        onclick="selectLanguage('Japanese')">
+
+                    <div class="language-symbol japanese">
+                        あ
+                    </div>
+
+                    <h3>
+                        Japanese
+                    </h3>
+
+                    <p>
+                        Hiragana • Katakana • Kanji
+                    </p>
+
+                </button>
+
+
+                <!-- KOREAN -->
+
+                <button class="language-card"
+                        onclick="selectLanguage('Korean')">
+
+                    <div class="language-symbol korean">
+                        한
+                    </div>
+
+                    <h3>
+                        Korean
+                    </h3>
+
+                    <p>
+                        Hangul
+                    </p>
+
+                </button>
+
+
+                <!-- RUSSIAN -->
+
+                <button class="language-card"
+                        onclick="selectLanguage('Russian')">
+
+                    <div class="language-symbol russian">
+                        Я
+                    </div>
+
+                    <h3>
+                        Russian
+                    </h3>
+
+                    <p>
+                        Cyrillic Alphabet
+                    </p>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             HOW IT WORKS
+        ========================== -->
+
+        <section id="how-it-works"
+                 class="how-section">
+
+            <div class="section-heading">
+
+                <p class="small-heading">
+                    LEARNING METHOD
+                </p>
+
+                <h2>
+                    Learn by actually writing.
+                </h2>
+
+                <p>
+                    LinBaek Scripts is designed
+                    around practice, not memorization.
+                </p>
+
+            </div>
+
+
+            <div class="steps-grid">
+
+
+                <div class="step-card">
+
+                    <div class="step-number">
+                        01
+                    </div>
+
+                    <h3>
+                        Learn
+                    </h3>
+
+                    <p>
+                        Understand the writing system,
+                        character shape and pronunciation.
+                    </p>
+
+                </div>
+
+
+                <div class="step-card">
+
+                    <div class="step-number">
+                        02
+                    </div>
+
+                    <h3>
+                        Watch
+                    </h3>
+
+                    <p>
+                        Follow the correct stroke order
+                        step by step.
+                    </p>
+
+                </div>
+
+
+                <div class="step-card">
+
+                    <div class="step-number">
+                        03
+                    </div>
+
+                    <h3>
+                        Trace
+                    </h3>
+
+                    <p>
+                        Practice the character using
+                        the on-screen writing guide.
+                    </p>
+
+                </div>
+
+
+                <div class="step-card">
+
+                    <div class="step-number">
+                        04
+                    </div>
+
+                    <h3>
+                        Write
+                    </h3>
+
+                    <p>
+                        Try writing the character
+                        yourself without the guide.
+                    </p>
+
+                </div>
+
+
+                <div class="step-card">
+
+                    <div class="step-number">
+                        05
+                    </div>
+
+                    <h3>
+                        Check
+                    </h3>
+
+                    <p>
+                        Compare your writing with
+                        the correct form and improve.
+                    </p>
+
+                </div>
+
+
+                <div class="step-card">
+
+                    <div class="step-number">
+                        06
+                    </div>
+
+                    <h3>
+                        Progress
+                    </h3>
+
+                    <p>
+                        Complete lessons and track
+                        your writing progress.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PRACTICE SECTION
+        ========================== -->
+
+        <section id="practice"
+                 class="practice-section">
+
+            <div class="practice-box">
+
+                <p class="small-heading">
+                    YOUR PRACTICE ROOM
+                </p>
+
+                <h2 id="practice-title">
+                    Choose a language to begin
+                </h2>
+
+
+                <!-- CHARACTER -->
+
+                <div id="character"
+                     class="practice-character">
+
+                    ✍️
+
+                </div>
+
+
+                <!-- DESCRIPTION -->
+
+                <p id="practice-description">
+
+                    Select a writing system above
+                    to begin your first lesson.
+
+                </p>
+
+
+                <!-- PRACTICE BUTTON -->
+
+                <button class="practice-button"
+                        onclick="startPractice()">
+
+                    Start Practice
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FEATURES
+        ========================== -->
+
+        <section class="features-section">
+
+            <div class="section-heading">
+
+                <p class="small-heading">
+                    BUILT FOR LEARNING
+                </p>
+
+                <h2>
+                    More than an alphabet chart.
+                </h2>
+
+            </div>
+
+
+            <div class="features-grid">
+
+
+                <div class="feature-card">
+
+                    <span>
+                        ✍️
+                    </span>
+
+                    <h3>
+                        Handwriting Practice
+                    </h3>
+
+                    <p>
+                        Write directly on the screen
+                        and practice repeatedly.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <span>
+                        ①
+                    </span>
+
+                    <h3>
+                        Stroke Order
+                    </h3>
+
+                    <p>
+                        Learn which stroke comes first,
+                        second and so on.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <span>
+                        ◇
+                    </span>
+
+                    <h3>
+                        Guided Lessons
+                    </h3>
+
+                    <p>
+                        Move from beginner lessons
+                        to more advanced writing.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <span>
+                        📈
+                    </span>
+
+                    <h3>
+                        Progress Tracking
+                    </h3>
+
+                    <p>
+                        Keep track of characters
+                        and lessons you have completed.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="footer-logo">
+            ✍️ LinBaek Scripts
+        </div>
+
+        <p>
+            Learn writing systems.
+            Practice every stroke.
+            Write with confidence.
+        </p>
+
+        <p class="copyright">
+            © 2026 LinBaek Scripts
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="app.js"></script>
+
+</body>
+
+  </html>
